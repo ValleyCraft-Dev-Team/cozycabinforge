@@ -27,12 +27,14 @@ public class ModLootTables {
 
     public static void initialize() {
         LootBuilder builder;
+        /*
         builder = new LootBuilder()
         .setRolls(ConstantValue.exactly(1.0F)).when(HAS_NO_SHEARS_OR_SILK_TOUCH)
         .add(applyExplosionCondition(Blocks.SPRUCE_LEAVES, LootItem.lootTableItem(ModItems.PINE_TAR.get()))
         .when(BonusLevelTableCondition.bonusLevelFlatChance(Enchantments.BLOCK_FORTUNE, 
         0.02f, 0.022222223f, 0.025f, 0.033333335f, 0.1f)));
         LootHelper.appendLoot(Blocks.SPRUCE_LEAVES.getLootTable(), builder);
+        */
     }
 
     protected static <T> T applyExplosionCondition(ItemLike item, ConditionUserBuilder<T> builder) {
