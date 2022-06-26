@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "cozycabincore:redwood_log",
+    "cozycabincore:redwood_wood",
+    "cozycabincore:stripped_redwood_log",
+    "cozycabincore:stripped_redwood_wood",
+    "cozycabincore:redwood_cabin_logs"
+  ]
+}

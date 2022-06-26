@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "cozycabincore:blocks/doors/redwood_door_top",
+    "bottom": "cozycabincore:blocks/doors/redwood_door_bottom"
+  }
+}

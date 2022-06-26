@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "cozycabincore:block/lanterns/amethyst_lantern"
+    },
+    "hanging=true": {
+      "model": "cozycabincore:block/lanterns/amethyst_lantern_hanging"
+    }
+  }
+}

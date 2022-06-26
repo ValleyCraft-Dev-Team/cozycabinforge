@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cozycabincore:block/planks/redwood_slab"
+    },
+    "type=double": {
+      "model": "cozycabincore:block/planks/redwood_planks"
+    },
+    "type=top": {
+      "model": "cozycabincore:block/planks/redwood_slab_top"
+    }
+  }
+}

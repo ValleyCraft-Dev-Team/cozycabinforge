@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cozycabincore:block/thatch/thatch_slab"
+    },
+    "type=double": {
+      "model": "cozycabincore:block/thatch/thatch_block"
+    },
+    "type=top": {
+      "model": "cozycabincore:block/thatch/thatch_slab_top"
+    }
+  }
+}

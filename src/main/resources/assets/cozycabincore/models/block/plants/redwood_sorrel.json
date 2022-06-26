@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "cozycabincore:blocks/plants/redwood_sorrel"
+  }
+}

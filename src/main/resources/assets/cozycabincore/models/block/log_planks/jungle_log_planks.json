@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cozycabincore:blocks/bark_planks/jungle_bark_planks_alt"
+  }
+}

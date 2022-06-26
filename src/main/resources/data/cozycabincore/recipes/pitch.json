@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "cozycabincore:pine_sap"
+    }
+  ],
+  "result": {
+    "item": "cozycabincore:pitch_bottle",
+    "count": 1
+  }
+}

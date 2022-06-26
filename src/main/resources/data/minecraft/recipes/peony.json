@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "cozycabincore:short_peony_bush",
+    "count": 2
+  }
+}

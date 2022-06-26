@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "cozycabincore:acacia_log_planks",
+    "cozycabincore:birch_log_planks",
+    "cozycabincore:dark_oak_log_planks",
+    "cozycabincore:jungle_log_planks",
+    "cozycabincore:oak_log_planks",
+    "cozycabincore:spruce_log_planks",
+    "cozycabincore:redwood_log_planks"
+  ]
+}

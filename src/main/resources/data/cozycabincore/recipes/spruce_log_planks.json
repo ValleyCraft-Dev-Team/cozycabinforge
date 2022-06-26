@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_wood"
+    },
+    {
+      "item": "cozycabincore:pitch_bottle"
+    }
+  ],
+  "result": {
+    "item": "cozycabincore:spruce_log_planks",
+    "count": 4
+  }
+}

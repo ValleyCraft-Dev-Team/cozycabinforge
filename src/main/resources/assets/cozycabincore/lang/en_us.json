@@ -1,0 +1,63 @@
+{
+  "itemGroup.cabin": "C³",
+
+  "item.cozycabincore.thatch": "Thatch",
+  "item.cozycabincore.pine_sap": "Pine Sap",
+  "item.cozycabincore.pitch_bottle": "Bottle of Sticky Pitch",
+
+  "item.cozycabincore.cabin_icon": "Cozy Cabincore Icon",
+  "item.cozycabincore.home_icon": "Achievement Path Icon (Ignore This, Its Not An Item!)",
+  "item.cozycabincore.honey_icon": "Achievement Path Icon (Ignore This, Its Not An Item!)",
+
+  "block.cozycabincore.thatch_block": "Thatch Block",
+  "block.cozycabincore.thatch_stairs": "Thatch Stairs",
+  "block.cozycabincore.thatch_slab": "Thatch Slab",
+
+  "block.cozycabincore.charcoal_block": "Charcoal Block",
+  "block.cozycabincore.redwood_leaves": "Redwood Leaves",
+  "block.cozycabincore.redwood_sapling": "Redwood Sapling",
+  
+  "block.cozycabincore.redwood_log": "Redwood Log",
+  "block.cozycabincore.redwood_wood": "Redwood Wood",
+  "block.cozycabincore.stripped_redwood_log": "Stripped Redwood Log",
+  "block.cozycabincore.stripped_redwood_wood": "Stripped Redwood Wood",
+  "block.cozycabincore.redwood_planks": "Redwood Planks",
+  "block.cozycabincore.redwood_door": "Redwood Door",
+  "block.cozycabincore.redwood_trapdoor": "Redwood Trapdoor",
+  "block.cozycabincore.redwood_slab": "Redwood Slab",
+  "block.cozycabincore.redwood_stairs": "Redwood Stairs",
+  "block.cozycabincore.redwood_button": "Redwood Button",
+  "block.cozycabincore.redwood_fence": "Redwood Fence",
+  "block.cozycabincore.redwood_fence_gate": "Redwood Fence Gate",
+  "block.cozycabincore.redwood_pressure_plate": "Redwood Pressure Plate",
+  "block.cozycabincore.redwood_sign": "Redwood Sign",
+
+  "block.cozycabincore.acacia_cabin_logs": "Acacia Cabin Logs",
+  "block.cozycabincore.birch_cabin_logs": "Birch Cabin Logs",
+  "block.cozycabincore.dark_oak_cabin_logs": "Dark Oak Cabin Logs",
+  "block.cozycabincore.jungle_cabin_logs": "Jungle Cabin Logs",
+  "block.cozycabincore.oak_cabin_logs": "Oak Cabin Logs",
+  "block.cozycabincore.spruce_cabin_logs": "Spruce Cabin Logs",
+  "block.cozycabincore.redwood_cabin_logs": "Redwood Cabin Logs",
+
+  "block.cozycabincore.acacia_log_planks": "Acacia Bark Planks",
+  "block.cozycabincore.birch_log_planks": "Birch Bark Planks",
+  "block.cozycabincore.dark_oak_log_planks": "Dark Oak Bark Planks",
+  "block.cozycabincore.jungle_log_planks": "Jungle Bark Planks",
+  "block.cozycabincore.oak_log_planks": "Oak Bark Planks",
+  "block.cozycabincore.spruce_log_planks": "Spruce Bark Planks",
+  "block.cozycabincore.redwood_log_planks": "Redwood Bark Planks",
+
+  "block.cozycabincore.flowering_vines": "Flowering Azaelea Vines",
+  "block.cozycabincore.short_rose_bush": "Small Rose Bush",
+  "block.cozycabincore.short_lilac_bush": "Small Lilac Bush",
+  "block.cozycabincore.short_peony_bush": "Small Peony Bush",
+  "block.cozycabincore.redwood_sorrel": "Redwood Sorrel",
+  "block.cozycabincore.wildflowers": "Wildflowers",
+  "block.cozycabincore.puff_flower": "Chrysanthemum",
+  "block.cozycabincore.leathery_polypody": "Leathery Polypody",
+
+  "block.cozycabincore.glow_berry_lantern": "Glow Berry Lantern",
+  "block.cozycabincore.flower_lantern": "Azalea Glow Berry Lantern",
+  "block.cozycabincore.amethyst_lantern": "Amethyst Glow Berry Lantern"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "cozycabincore:blocks/planks/redwood_planks",
+    "top": "cozycabincore:blocks/planks/redwood_planks",
+    "side": "cozycabincore:blocks/planks/redwood_planks"
+  }
+}

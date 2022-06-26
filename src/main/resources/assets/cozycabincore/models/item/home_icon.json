@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cozycabincore:group_icons/home_icon"
+  }
+}

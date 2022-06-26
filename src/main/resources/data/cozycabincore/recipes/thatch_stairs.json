@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cozycabincore:thatch_block"
+    }
+  },
+  "result": {
+    "item": "cozycabincore:thatch_stairs",
+    "count": 4
+  }
+}

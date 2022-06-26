@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flowering_azalea"
+    }
+  ],
+  "result": {
+    "item": "cozycabincore:flowering_vines",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cozycabincore:block/logs/redwood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cozycabincore:block/logs/redwood_wood"
+    },
+    "axis=z": {
+      "model": "cozycabincore:block/logs/redwood_wood",
+      "x": 90
+    }
+  }
+}

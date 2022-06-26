@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "cozycabincore:block/lanterns/glow_berry_lantern"
+    },
+    "hanging=true": {
+      "model": "cozycabincore:block/lanterns/glow_berry_lantern_hanging"
+    }
+  }
+}

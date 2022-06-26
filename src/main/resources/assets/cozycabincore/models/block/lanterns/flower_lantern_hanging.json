@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_hanging_lantern",
+  "textures": {
+    "lantern": "cozycabincore:blocks/lanterns/flower_lantern"
+  }
+}

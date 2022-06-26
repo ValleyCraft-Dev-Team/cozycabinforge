@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "cozycabincore:blocks/thatch/thatch_top",
+    "side": "cozycabincore:blocks/thatch/thatch"
+  }
+}

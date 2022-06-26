@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cozycabincore:redwood_log"
+    },
+    "H": {
+      "item": "cozycabincore:pitch_bottle"
+    }
+  },
+  "result": {
+    "item": "cozycabincore:redwood_cabin_logs",
+    "count": 8
+  }
+}

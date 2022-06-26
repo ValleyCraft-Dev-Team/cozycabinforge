@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "cozycabincore:redwood_logs"
+    }
+  ],
+  "result": {
+    "item": "cozycabincore:redwood_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_log"
+    },
+    "H": {
+      "item": "cozycabincore:pitch_bottle"
+    }
+  },
+  "result": {
+    "item": "cozycabincore:oak_cabin_logs",
+    "count": 8
+  }
+}

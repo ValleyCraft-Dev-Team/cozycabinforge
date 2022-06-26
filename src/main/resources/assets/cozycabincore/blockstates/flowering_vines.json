@@ -1,0 +1,150 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "down": "false"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "down": "false"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "down": "false"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "down": "false"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "down": "false"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "x": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "down": "false"
+      },
+      "apply": {
+        "model": "cozycabincore:block/plants/flowering_vines",
+        "x": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

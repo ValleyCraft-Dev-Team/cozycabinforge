@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_wood"
+    },
+    {
+      "item": "cozycabincore:pitch_bottle"
+    }
+  ],
+  "result": {
+    "item": "cozycabincore:jungle_log_planks",
+    "count": 4
+  }
+}

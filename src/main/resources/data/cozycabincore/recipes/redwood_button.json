@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "cozycabincore:redwood_planks"
+    }
+  ],
+  "result": {
+    "item": "cozycabincore:redwood_button"
+  }
+}

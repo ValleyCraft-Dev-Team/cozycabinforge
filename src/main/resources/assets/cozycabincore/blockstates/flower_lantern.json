@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "cozycabincore:block/lanterns/flower_lantern"
+    },
+    "hanging=true": {
+      "model": "cozycabincore:block/lanterns/flower_lantern_hanging"
+    }
+  }
+}

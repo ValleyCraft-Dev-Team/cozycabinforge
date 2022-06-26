@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "cozycabincore:blocks/planks/redwood_planks"
+  }
+}

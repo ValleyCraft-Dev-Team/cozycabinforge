@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "cozycabincore:flowering_vines",
+                  "properties": {
+                    "east": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "cozycabincore:flowering_vines",
+                  "properties": {
+                    "west": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "cozycabincore:flowering_vines",
+                  "properties": {
+                    "north": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "cozycabincore:flowering_vines",
+                  "properties": {
+                    "south": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "cozycabincore:flowering_vines",
+                  "properties": {
+                    "up": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "cozycabincore:flowering_vines",
+                  "properties": {
+                    "down": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": -1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "cozycabincore:flowering_vines"
+        }
+      ]
+    }
+  ]
+}
