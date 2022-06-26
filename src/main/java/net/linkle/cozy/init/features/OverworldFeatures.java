@@ -10,15 +10,9 @@ import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.VegetationPlacements;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.random.SimpleWeightedRandomList;
-import net.minecraft.world.level.biome.Biome;
-import net.minecraft.world.level.biome.Biome.BiomeCategory;
-import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
@@ -30,61 +24,30 @@ import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 public class OverworldFeatures {
     
-    private static Holder<PlacedFeature> REDWOOD_PLACED;
-    private static Holder<PlacedFeature> PATCH_REDWOOD_SORREL;
-    private static Holder<PlacedFeature> PATCH_PUFF_FLOWER;
-    private static Holder<PlacedFeature> PATCH_WILDFLOWERS;
-    private static Holder<PlacedFeature> PATCH_ROSE_AND_LILAC;
-    
     public static void intialize() {
-        Holder<PlacedFeature> placed;
-        Holder<ConfiguredFeature<?, ?>> config;
         List<PlacementModifier> list;
-        var vegetal = GenerationStep.Decoration.VEGETAL_DECORATION;
         //var oldGrowthTaiga = BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA);
         //var birchForest = BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA);
         
         // Redwood tree
         list = VegetationPlacements.treePlacement(RarityFilter.onAverageOnceEvery(1), ModBlocks.REDWOOD_SAPLING.get());
-        REDWOOD_PLACED = Reg.register("redwood_placed", TreeConfigFeatures.MEGA_REDWOOD, list);
+        Reg.register("redwood_placed", TreeConfigFeatures.MEGA_REDWOOD, list);
         //BiomeModifications.addFeature(oldGrowthTaiga, vegetal, placed.getKey().get());
         
-        PATCH_REDWOOD_SORREL = registerPlant(createConfig("patch_redwood_sorrel", 70, ModBlocks.REDWOOD_SORREL.get()), 16);
+        registerPlant(createConfig("patch_redwood_sorrel", 70, ModBlocks.REDWOOD_SORREL.get()), 16);
         //BiomeModifications.addFeature(oldGrowthTaiga, vegetal, placed.getKey().get());
         
-        PATCH_PUFF_FLOWER = registerPlant(createConfig("patch_puff_flower", 80, ModBlocks.PUFF_FLOWER.get()), 20);
+        registerPlant(createConfig("patch_puff_flower", 80, ModBlocks.PUFF_FLOWER.get()), 20);
         //BiomeModifications.addFeature(birchForest, vegetal, placed.getKey().get());
         
-        PATCH_WILDFLOWERS = registerPlant(createConfig("patch_wildflowers", 70, ModBlocks.WILDFLOWERS.get()), 20);
+        registerPlant(createConfig("patch_wildflowers", 70, ModBlocks.WILDFLOWERS.get()), 20);
         //BiomeModifications.addFeature(birchForest.and(oldGrowthTaiga), vegetal, placed.getKey().get());
         
-        PATCH_ROSE_AND_LILAC = registerPlant(createConfig("patch_rose_and_lilac", 70, ModBlocks.SHORT_ROSE_BUSH.get(), ModBlocks.SHORT_LILAC_BUSH.get()), 40);
+        registerPlant(createConfig("patch_rose_and_lilac", 70, ModBlocks.SHORT_ROSE_BUSH.get(), ModBlocks.SHORT_LILAC_BUSH.get()), 40);
         //BiomeModifications.addFeature(BiomeSelectors.categories(Category.FOREST), vegetal, placed.getKey().get());
-    }
-    
-    public static void onBiomeLoadingEvent(BiomeLoadingEvent event) {
-        if (event == null) return;
-        var vegetal = GenerationStep.Decoration.VEGETAL_DECORATION;
-        if (equals(event.getName(), Biomes.OLD_GROWTH_PINE_TAIGA) || equals(event.getName(), Biomes.OLD_GROWTH_SPRUCE_TAIGA)) {
-            event.getGeneration().addFeature(vegetal, REDWOOD_PLACED);
-            event.getGeneration().addFeature(vegetal, PATCH_REDWOOD_SORREL);
-            event.getGeneration().addFeature(vegetal, PATCH_WILDFLOWERS);
-        } 
-        if (equals(event.getName(), Biomes.OLD_GROWTH_BIRCH_FOREST) || equals(event.getName(), Biomes.BIRCH_FOREST)) {
-            event.getGeneration().addFeature(vegetal, PATCH_WILDFLOWERS);
-            event.getGeneration().addFeature(vegetal, PATCH_PUFF_FLOWER);
-        } if (event.getCategory() == BiomeCategory.FOREST) {
-            event.getGeneration().addFeature(vegetal, PATCH_ROSE_AND_LILAC);
-        }
-    }
-    
-    private static boolean equals(ResourceLocation name, ResourceKey<Biome> key) {
-        if (name == null) return false; 
-        return name.equals(key.location());
     }
     
     /** Create a random patch feature config. */

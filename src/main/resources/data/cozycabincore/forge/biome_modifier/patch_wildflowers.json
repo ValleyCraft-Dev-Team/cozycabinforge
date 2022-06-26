@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": ["old_growth_spruce_taiga", "old_growth_pine_taiga", "old_growth_birch_forest", "birch_forest"],
+  "features": "cozycabincore:patch_wildflowers",
+  "step": "vegetal_decoration"
+}

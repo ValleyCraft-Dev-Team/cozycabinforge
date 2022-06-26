@@ -78,6 +78,7 @@ public class Contents {
         putFlammable(OAK_CABIN_LOGS, 5, 5);
         putFlammable(SPRUCE_CABIN_LOGS, 5, 5);
         putFlammable(REDWOOD_CABIN_LOGS, 5, 5);
+        putFlammable(MANGROVE_CABIN_LOGS, 5, 5);
         putFlammable(ACACIA_BARK_PLANKS, 5, 10);
         putFlammable(BIRCH_BARK_PLANKS, 5, 10);
         putFlammable(DARK_OAK_BARK_PLANKS, 5, 10);
@@ -85,6 +86,7 @@ public class Contents {
         putFlammable(OAK_BARK_PLANKS, 5, 10);
         putFlammable(SPRUCE_BARK_PLANKS, 5, 10);
         putFlammable(REDWOOD_BARK_PLANKS, 5, 10);
+        putFlammable(MANGROVE_BARK_PLANKS, 5, 10);
         
         putFlammable(REDWOOD_LEAVES, 30, 60);
         

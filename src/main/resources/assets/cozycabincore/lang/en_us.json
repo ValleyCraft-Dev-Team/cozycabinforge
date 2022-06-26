@@ -1,5 +1,5 @@
 {
-  "itemGroup.cabin": "C³",
+  "itemGroup.cozycabincore.cabin": "C³",
 
   "item.cozycabincore.thatch": "Thatch",
   "item.cozycabincore.pine_sap": "Pine Sap",
@@ -39,6 +39,7 @@
   "block.cozycabincore.oak_cabin_logs": "Oak Cabin Logs",
   "block.cozycabincore.spruce_cabin_logs": "Spruce Cabin Logs",
   "block.cozycabincore.redwood_cabin_logs": "Redwood Cabin Logs",
+  "block.cozycabincore.mangrove_cabin_logs": "Mangrove Cabin Logs",
 
   "block.cozycabincore.acacia_log_planks": "Acacia Bark Planks",
   "block.cozycabincore.birch_log_planks": "Birch Bark Planks",
@@ -47,6 +48,7 @@
   "block.cozycabincore.oak_log_planks": "Oak Bark Planks",
   "block.cozycabincore.spruce_log_planks": "Spruce Bark Planks",
   "block.cozycabincore.redwood_log_planks": "Redwood Bark Planks",
+  "block.cozycabincore.mangrove_log_planks": "Mangrove Bark Planks",
 
   "block.cozycabincore.flowering_vines": "Flowering Azaelea Vines",
   "block.cozycabincore.short_rose_bush": "Small Rose Bush",

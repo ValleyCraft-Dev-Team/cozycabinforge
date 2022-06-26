@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_forest",
+  "features": "cozycabincore:patch_rose_and_lilac",
+  "step": "vegetal_decoration"
+}

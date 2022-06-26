@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": ["old_growth_birch_forest", "birch_forest"],
+  "features": "cozycabincore:patch_puff_flower",
+  "step": "vegetal_decoration"
+}

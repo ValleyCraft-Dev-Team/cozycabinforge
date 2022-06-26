@@ -10,7 +10,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraftforge.registries.IForgeRegistryEntry;
 import net.minecraftforge.registries.RegistryObject;
 
 public class Regs {
@@ -32,7 +31,7 @@ public class Regs {
         return reg.register(ID, value);
     }
 
-    private static <T extends IForgeRegistryEntry<T>> void create(IForgeRegistry<T> registry, Class<?> clazz) {
+    private static <T> void create(IForgeRegistry<T> registry, Class<?> clazz) {
         MAP.put(clazz, DeferredRegister.create(registry, Main.ID));
     }
 }

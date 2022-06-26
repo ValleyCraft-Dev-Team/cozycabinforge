@@ -54,6 +54,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> OAK_CABIN_LOGS = Reg.registerWithItem("oak_cabin_logs", ()->new RotatedPillarBlock(Block.Properties.copy(Blocks.OAK_LOG)), itemSettings());
     public static final RegistryObject<Block> SPRUCE_CABIN_LOGS = Reg.registerWithItem("spruce_cabin_logs", ()->new RotatedPillarBlock(Block.Properties.copy(Blocks.SPRUCE_LOG)), itemSettings());
     public static final RegistryObject<Block> REDWOOD_CABIN_LOGS = Reg.registerWithItem("redwood_cabin_logs", ()->new RotatedPillarBlock(Block.Properties.copy(REDWOOD_LOG.get())), itemSettings());
+    public static final RegistryObject<Block> MANGROVE_CABIN_LOGS = Reg.registerWithItem("mangrove_cabin_logs", ()->new RotatedPillarBlock(Block.Properties.copy(Blocks.MANGROVE_LOG)), itemSettings());
     
     public static final RegistryObject<Block> ACACIA_BARK_PLANKS = Reg.registerWithItem("acacia_log_planks", ()->new Block(Block.Properties.copy(Blocks.ACACIA_PLANKS)), itemSettings());
     public static final RegistryObject<Block> BIRCH_BARK_PLANKS = Reg.registerWithItem("birch_log_planks", ()->new Block(Block.Properties.copy(Blocks.BIRCH_PLANKS)), itemSettings());
@@ -62,6 +63,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> OAK_BARK_PLANKS = Reg.registerWithItem("oak_log_planks", ()->new Block(Block.Properties.copy(Blocks.OAK_PLANKS)), itemSettings());
     public static final RegistryObject<Block> SPRUCE_BARK_PLANKS = Reg.registerWithItem("spruce_log_planks", ()->new Block(Block.Properties.copy(Blocks.SPRUCE_PLANKS)), itemSettings());
     public static final RegistryObject<Block> REDWOOD_BARK_PLANKS = Reg.registerWithItem("redwood_log_planks", ()->new Block(Block.Properties.copy(REDWOOD_PLANKS.get())), itemSettings());
+    public static final RegistryObject<Block> MANGROVE_BARK_PLANKS = Reg.registerWithItem("mangrove_log_planks", ()->new Block(Block.Properties.copy(Blocks.MANGROVE_PLANKS)), itemSettings());
     
     public static final RegistryObject<Block> CHARCOAL_BLOCK = Reg.registerWithItem("charcoal_block", ()->new Block(Block.Properties.copy(Blocks.COAL_BLOCK)), itemSettings());
     
@@ -106,7 +108,7 @@ public class ModBlocks {
     }
     
     private static void addPottedPlant(RegistryObject<Block> flower, RegistryObject<Block> fullPot) {
-        ((FlowerPotBlock)Blocks.FLOWER_POT).addPlant(flower.get().getRegistryName(), fullPot);
+        ((FlowerPotBlock)Blocks.FLOWER_POT).addPlant(flower.getId(), fullPot);
     }
     
     private static Item.Properties itemSettings() {
