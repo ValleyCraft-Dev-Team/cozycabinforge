@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G",
+    "G#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "G": {
+      "item": "minecraft:fern"
+    }
+  },
+  "result": {
+    "item": "cozycabincore:thatch_block",
+    "count": 1
+  }
+}

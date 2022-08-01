@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cozycabincore:thatch_block"
+    }
+  },
+  "result": {
+    "item": "cozycabincore:patterned_thatch_block"
+  }
+}

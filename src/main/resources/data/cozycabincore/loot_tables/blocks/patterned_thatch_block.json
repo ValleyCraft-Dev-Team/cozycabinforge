@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cozycabincore:redwood_log_planks"
+          "name": "cozycabincore:patterned_thatch_block"
         }
       ],
       "conditions": [

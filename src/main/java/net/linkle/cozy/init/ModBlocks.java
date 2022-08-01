@@ -70,6 +70,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLOWER_LANTERN = Reg.registerWithItem("flower_lantern", ()->new LanternBlock(LANTERN), itemSettings());
     
     public static final RegistryObject<Block> THATCH_BLOCK = Reg.registerWithItem("thatch_block", ()->new HayBlock(Block.Properties.copy(Blocks.HAY_BLOCK).color(MaterialColor.WOOD)), itemSettings());
+    public static final RegistryObject<Block> PATTERNED_THATCH_BLOCK = Reg.registerWithItem("patterned_thatch_block", ()->new HayBlock(Block.Properties.copy(Blocks.HAY_BLOCK).color(MaterialColor.WOOD)), itemSettings());
     public static final RegistryObject<Block> THATCH_STAIRS = Reg.registerWithItem("thatch_stairs", ()->new ThatchStairs(), itemSettings());
     public static final RegistryObject<Block> THATCH_SLAB = Reg.registerWithItem("thatch_slab", ()->new ThatchSlab(), itemSettings());
     

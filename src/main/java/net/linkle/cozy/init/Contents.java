@@ -91,6 +91,7 @@ public class Contents {
         putFlammable(THATCH_BLOCK, 60, 20);
         putFlammable(THATCH_STAIRS, 60, 20);
         putFlammable(THATCH_SLAB, 60, 20);
+        putFlammable(PATTERNED_THATCH_BLOCK, 60, 20);
         
         putFlammable(GLOW_BERRY_LANTERN, 5, 10);
         putFlammable(FLOWER_LANTERN, 5, 10);
